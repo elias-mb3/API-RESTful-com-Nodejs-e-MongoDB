@@ -37,8 +37,8 @@ app.get('/', (req, res) => {
 //entregar uma porta
 
 //PELAMORDEDEUSNÃOESQUECE DE TIRAR ISSO DO REPOSITORIO
-const DB_USER = "monteiroelias783"
-const DB_PASSWORD = "iFgCiNHr0uApfF4n"
+const DB_USER = ""
+const DB_PASSWORD = ""
 
 mongoose.connect(`mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.mg7w6fa.mongodb.net/?retryWrites=true&w=majority`)
 .then( () => { //quando da certo
